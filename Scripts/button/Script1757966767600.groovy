@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/')
 
+WebUI.maximizeWindow()
+
 WebUI.scrollToElement(findTestObject('Object Repository/carpeta 1/Page_DEMOQA/h5_Forms'), 0)
 
 WebUI.click(findTestObject('Object Repository/carpeta 1/Page_DEMOQA/h5_Forms'))
@@ -44,4 +46,6 @@ WebUI.click(findTestObject('Object Repository/carpeta 1/Page_DEMOQA/label_Yes'))
 WebUI.doubleClick(findTestObject('Object Repository/carpeta 1/Page_DEMOQA/label_No'))
 
 WebUI.click(findTestObject('Object Repository/carpeta 1/Page_DEMOQA/div_Yes'))
+
+WebUI.delay(2)
 
