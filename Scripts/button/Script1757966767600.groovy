@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/')
 
+WebUI.delay(2)
+
 WebUI.maximizeWindow()
 
 WebUI.scrollToElement(findTestObject('Object Repository/carpeta 1/Page_DEMOQA/h5_Forms'), 0)
